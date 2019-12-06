@@ -1,0 +1,89 @@
+@font-face {
+	font-family: mono;
+	src: url('A2 Record Gothic Mono.otf');
+}
+
+@font-face {
+	font-family: adlibitum;
+	src: url('adlibitum.bold.ttf');
+}
+
+body {
+  background-color: black;
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: rgba(0,0,0,0);; /* or add it to the track */
+}
+
+/* Add a thumb */
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#F90000, #B6D515);
+}
+
+#title {
+	font-family: adlibitum;
+	font-size: 75px;
+	top: -5%;
+	left: 5%;
+	position: absolute;
+	background-image: linear-gradient(#F90000, #B6D515);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#content {
+	width: 900px;
+	font-size: 18px;
+	position: absolute;
+	left: 5%;
+	top: 10%;
+  font-family: mono;
+  background-image: linear-gradient(#F90000, #B6D515);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+
+#info-text {
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  top: 600px;
+  left 0px;
+  z-index: 999;
+  font-size: 14px;
+  font-family: mono;
+  background-image: linear-gradient(#F90000, #B6D515);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.about {
+  text-align: center;
+}
+
+.Editorial {
+}
+
+.Design {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.website {
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: center;
+}
+
+.support {
+  text-align: center;
+}

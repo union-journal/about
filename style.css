@@ -40,7 +40,7 @@ body::-webkit-scrollbar-thumb {
 	font-size: 18px;
 	position: absolute;
 	left: 5%;
-	top: 10%;
+	top: 13%;
   font-family: mono;
   background-image: linear-gradient(#F90000, #B6D515);
   -webkit-text-fill-color: transparent;

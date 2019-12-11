@@ -8,6 +8,11 @@
 	src: url('adlibitum.bold.ttf');
 }
 
+@font-face {
+	font-family: timesNow;
+	src: url('artifacts/Times Now Bold.otf');
+}
+
 body {
   background-color: black;
 	overflow-x: hidden;
@@ -24,10 +29,39 @@ body::-webkit-scrollbar-thumb {
   background-image: linear-gradient(#F90000, #B6D515);
 }
 
-#title {
+#union {
+	position: absolute;
+	top: 0%;
+	left: 5%;
+	position: absolute;
+}
+
+#journal {
 	font-family: adlibitum;
 	font-size: 75px;
-	top: -5%;
+	position: relative;
+	background-image: linear-gradient(#F90000, #B6D515);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	left: 4.5%;
+	top: -1%;
+}
+
+#num {
+	font-family: timesNow;
+	font-size: 20px;
+	position: absolute;
+	background-image: linear-gradient(#F90000, #B6D515);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	left: 14%;
+	top:5%;
+}
+
+#title {
+	font-family: adlibitum;
+	font-size: 57px;
+	top: 10%;
 	left: 5%;
 	position: absolute;
 	background-image: linear-gradient(#F90000, #B6D515);
@@ -39,13 +73,13 @@ body::-webkit-scrollbar-thumb {
 	width: 900px;
 	font-size: 18px;
 	position: absolute;
-	left: 5%;
-	top: 13%;
+	left: 50%;
+	transform: translate(-50%);
+	top: 30%;
   font-family: mono;
   background-image: linear-gradient(#F90000, #B6D515);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-
 }
 
 #info-text {

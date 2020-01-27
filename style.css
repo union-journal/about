@@ -38,7 +38,7 @@ body::-webkit-scrollbar-thumb {
 
 #journal {
 	font-family: adlibitum;
-	font-size: 75px;
+	font-size: 85px;
 	position: relative;
 	background-image: linear-gradient(#F90000, #B6D515);
 	-webkit-text-fill-color: transparent;
@@ -54,14 +54,14 @@ body::-webkit-scrollbar-thumb {
 	background-image: linear-gradient(#F90000, #B6D515);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
-	left: 14%;
-	top:5%;
+	left: 14.5%;
+	top:6.5%;
 }
 
 #title {
 	font-family: adlibitum;
 	font-size: 57px;
-	top: 10%;
+	top: 12%;
 	left: 5%;
 	position: absolute;
 	background-image: linear-gradient(#F90000, #B6D515);
@@ -70,12 +70,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 #content {
-	width: 900px;
+	width: 600px;
 	font-size: 18px;
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%);
-	top: 30%;
+	top: 33%;
   font-family: mono;
   background-image: linear-gradient(#F90000, #B6D515);
   -webkit-text-fill-color: transparent;
@@ -86,10 +86,10 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 350px;
   position: absolute;
-  top: 800px;
+  top: 1100px;
   left 0px;
   z-index: 999;
-  font-size: 14px;
+  font-size: 20px;
   font-family: mono;
   background-image: linear-gradient(#F90000, #B6D515);
   -webkit-text-fill-color: transparent;

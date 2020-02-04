@@ -29,6 +29,11 @@ body::-webkit-scrollbar-thumb {
   background-image: linear-gradient(#F90000, #B6D515);
 }
 
+.nfe {
+	font-size: 30px;
+}
+
+
 #union {
 	position: absolute;
 	top: 0%;

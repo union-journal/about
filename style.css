@@ -59,7 +59,7 @@ body::-webkit-scrollbar-thumb {
 	background-image: linear-gradient(#F90000, #B6D515);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
-	left: 200px;
+	left: 220px;
 	top:6%;
 }
 
